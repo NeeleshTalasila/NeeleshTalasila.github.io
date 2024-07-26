@@ -67,3 +67,13 @@ footer {
     width: 100%;
     bottom: 0;
 }
+/* Add styles for the LinkedIn section */
+#linkedin {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#linkedin img {
+    margin-top: 10px;
+}
+
