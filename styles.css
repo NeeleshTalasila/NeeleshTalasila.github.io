@@ -76,4 +76,24 @@ footer {
 #linkedin img {
     margin-top: 10px;
 }
+/* Style for the new sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Additional styles for LinkedIn icon */
+#linkedin img {
+    margin-top: 10px;
+}
+
 
