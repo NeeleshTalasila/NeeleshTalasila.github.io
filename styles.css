@@ -1,10 +1,16 @@
+/* Apply background image to the entire page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    background-image: url('background2.jpg'); /* Sets the background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling (optional) */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding around the body */
+    font-family: Arial, sans-serif; /* Ensures consistent font across the site */
 }
 
+/* Header styles */
 header {
     background: #333;
     color: #fff;
@@ -32,9 +38,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Section styles */
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8); /* Slightly opaque background for better readability */
+    border-radius: 10px; /* Rounded corners */
 }
 
 section h2 {
@@ -42,6 +51,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* Form styles */
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -58,6 +68,7 @@ form input, form textarea {
     margin-bottom: 20px;
 }
 
+/* Footer styles */
 footer {
     text-align: center;
     padding: 20px;
@@ -67,7 +78,20 @@ footer {
     width: 100%;
     bottom: 0;
 }
-/* Add styles for the LinkedIn section */
+
+/* Profile image styles */
+.profile-container {
+    text-align: center; /* Center the profile image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.profile-img {
+    width: 150px; /* Set the width of the profile image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Make the image circular */
+}
+
+/* LinkedIn section styles */
 #linkedin {
     text-align: center;
     margin: 20px 0;
@@ -76,38 +100,3 @@ footer {
 #linkedin img {
     margin-top: 10px;
 }
-/* Style for the new sections */
-section {
-    padding: 20px;
-    margin: 20px 0;
-}
-
-h2 {
-    color: #333;
-}
-
-p, ul {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* Additional styles for LinkedIn icon */
-#linkedin img {
-    margin-top: 10px;
-}
-.profile-container {
-    text-align: center;
-    margin-bottom: 10px; /* Adjust spacing as needed */
-}
-
-.profile-img {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100px; /* Adjust the size as needed */
-    height: auto;
-    border-radius: 50%; /* Optional: Makes the image round */
-    border: 2px solid #333; /* Optional: Adds a border around the image */
-}
-
-
-
