@@ -95,10 +95,15 @@ p, ul {
 #linkedin img {
     margin-top: 10px;
 }
+.profile-container {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
 .profile-img {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    width: 150px; /* Adjust the size as needed */
+    width: 100px; /* Adjust the size as needed */
     height: auto;
     border-radius: 50%; /* Optional: Makes the image round */
     border: 2px solid #333; /* Optional: Adds a border around the image */
